@@ -1,0 +1,144 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Color Variables */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F3F4;
+    color: #2C3E50;
+}
+
+/* Header Styling */
+header {
+    background-color: #5DADE2;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 10px;
+    /* max-width: 1200px;    */
+    /* margin: 0 auto;   */
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 10px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+.searchbtn{
+    height: 20px;
+    margin-left: -142px;
+    fill: #F2F3F4;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* Main Content Styling */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Destination Overview */
+.destination-overview {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.destination-overview h2 {
+    color: #5DADE2;
+    margin-bottom: 10px;
+}
+
+/* Image Gallery */
+.image-gallery {
+    margin-bottom: 30px;
+}
+
+.image-gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #F5B041;
+}
+
+/* Weather Information */
+.weather-info {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.weather-card {
+    background-color: #5DADE2;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Top Attractions */
+.top-attractions {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.top-attractions h2 {
+    margin-bottom: 15px;
+}
+
+.top-attractions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
